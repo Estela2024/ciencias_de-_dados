@@ -30,7 +30,7 @@ h1 {
 nav {
     display: flex;/*para posicionar os elementos de forma melhor*/
     justify-content: center;/*para alinhar no centro da página*/
-    font-weight: 400;/*fonte fina*/
+    font-weight: 400;/*fonte final*/
 }
 
 nav a {
