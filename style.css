@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
 :root {
-    --bg-color: #000000d2;
-    --primary-color: #22a03d;
-    --secondary-color: #e2e2e2;
-    --font: “Nunito Sans”, sans-serif;
+    --bg-color: #146e1b;
+    --primary-color: #3fac14;
+    --secondary-color: #000000;
+    --font: "Nunito Sans", sans-serif;
 }
 
 body {
@@ -28,39 +28,44 @@ h1 {
 }
 
 nav {
-    display: flex;/*para posicionar os elementos de forma melhor*/
-    justify-content: center;/*para alinhar no centro da página*/
-    font-weight: 400;/*fonte final*/
+    display: flex;
+    justify-content: center;
+    font-weight: 400;
 }
 
 nav a {
     text-decoration: none;
     color: var(--bg-color);
-    margin: 0 2rem 1rem 0rem;/* A margem terá 0rem à esquerda, 2rem acima, 1rem à direita e 0rem abaixo.*/
-    font-size: 1.2rem;/* para aumentar um pouco o tamanho da fonte dos links*/
+    margin: 0 2rem 1rem 0rem;
+    font-size: 1.2rem;
 }
 
 nav a:hover {
-    text-decoration: underline;/*para aparecer o sublinhado*/
-    transform: scale(0.90);/*diminuir a fonte ao passar o mouse*/
-    transition: trasform 0.1s;/*fará a animação acontecer um pouco mais devagar*/
+    text-decoration: underline;
+    transform: scale(0.90);
+    transition: transform 0.1s;
 }
+
+.grafico {
+    margin-top: 3rem;
+}
+
 
 .graficos-container {
     margin: 5rem;
-   }
+}
 
 .graficos-container__texto {
     font-size: 1.3rem;
     text-align: center;
     padding: 2rem;
     border: var(--secondary-color) solid 2px;
-  }
+}
 
-  span {
+span {
     font-weight: bold;
     color: var(--secondary-color);
-    }
+}
 
 footer {
     display: flex;
